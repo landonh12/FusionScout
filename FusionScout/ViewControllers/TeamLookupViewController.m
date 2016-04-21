@@ -34,6 +34,15 @@ UIAlertView *dialog;
     //Clear the teamScore array for each new load
     for(int i = 0; i < 7001; i++) {
         teamScore2[i] = 0;
+        totalAutoGoal[i] = 0;
+        totalAutoReachedOW[i] = 0;
+        totalAutoCrossedDef[i] = 0;
+        totalTeleopCrossedDef[i] = 0;
+        totalTeleopHighGoalsMissed[i] = 0;
+        totalTeleopHighGoalsMade[i] = 0;
+        totalTeleopLowGoalsMissed[i] = 0;
+        totalTeleopLowGoalsMade[i] = 0;
+        totalTeleopEndGame[i] = 0;
     }
     
     NSLog(@"Starting Query...");

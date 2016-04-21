@@ -87,6 +87,13 @@ NSInteger teleopEndGame = 0;
     NSLog(@"Starting Query...");
     
     for(int i = 0; i < 7001; i++) {
+
+        teamRank[i] = 0;
+        teamNumberRank[i] = 0;
+        
+    }
+    
+    for(int i = 0; i < 7001; i++) {
         teamScore[i] = -1;
     }
     
