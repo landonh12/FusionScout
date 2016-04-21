@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0545681CB37AAD0057C013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0545671CB37AAD0057C013 /* main.m */; };
+		4D05456B1CB37AAD0057C013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05456A1CB37AAD0057C013 /* AppDelegate.m */; };
+		4D0545711CB37AAD0057C013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D05456F1CB37AAD0057C013 /* Main.storyboard */; };
+		4D0545731CB37AAD0057C013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0545721CB37AAD0057C013 /* Assets.xcassets */; };
+		4D0545761CB37AAD0057C013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0545741CB37AAD0057C013 /* LaunchScreen.storyboard */; };
+		4D0545811CB37AAD0057C013 /* FusionScoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0545801CB37AAD0057C013 /* FusionScoutTests.m */; };
+		4D05458C1CB37AAD0057C013 /* FusionScoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05458B1CB37AAD0057C013 /* FusionScoutUITests.m */; };
+		4D3B926F1CC7079900F35C7C /* TeamRankingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B926E1CC7079900F35C7C /* TeamRankingsTableViewController.m */; };
+		4D49DFE11CC6830C00AAD53B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFDF1CC6830C00AAD53B /* Bolts.framework */; };
+		4D49DFE21CC6830C00AAD53B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFE01CC6830C00AAD53B /* Parse.framework */; };
+		4D49DFE41CC6833200AAD53B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFE31CC6833200AAD53B /* AudioToolbox.framework */; };
+		4D49DFE61CC6833900AAD53B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFE51CC6833900AAD53B /* CFNetwork.framework */; };
+		4D49DFE81CC6833F00AAD53B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFE71CC6833F00AAD53B /* CoreGraphics.framework */; };
+		4D49DFEA1CC6834500AAD53B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFE91CC6834500AAD53B /* CoreLocation.framework */; };
+		4D49DFEC1CC6834B00AAD53B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFEB1CC6834B00AAD53B /* QuartzCore.framework */; };
+		4D49DFEE1CC6835200AAD53B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFED1CC6835200AAD53B /* Security.framework */; };
+		4D49DFF01CC6835C00AAD53B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFEF1CC6835C00AAD53B /* StoreKit.framework */; };
+		4D49DFF21CC6836300AAD53B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFF11CC6836300AAD53B /* SystemConfiguration.framework */; };
+		4D49DFF41CC6836C00AAD53B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFF31CC6836C00AAD53B /* libz.tbd */; };
+		4D49DFF61CC6837400AAD53B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFF51CC6837400AAD53B /* libsqlite3.tbd */; };
+		4D6177E61CC55DD400CCBAB7 /* fusion-logo-2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6177E51CC55DD400CCBAB7 /* fusion-logo-2-1.png */; };
+		4D6EFD981CC3F64500FA38B8 /* ScoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6EFD971CC3F64500FA38B8 /* ScoutTableViewController.m */; };
+		4D6EFD9B1CC41C8B00FA38B8 /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6EFD9A1CC41C8B00FA38B8 /* MainMenuTableViewController.m */; };
+		4D7831951CC7ED1000AD195A /* TeamLookupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7831941CC7ED1000AD195A /* TeamLookupViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D05457D1CB37AAD0057C013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D05455B1CB37AAC0057C013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0545621CB37AAD0057C013;
+			remoteInfo = FusionScout;
+		};
+		4D0545881CB37AAD0057C013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D05455B1CB37AAC0057C013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0545621CB37AAD0057C013;
+			remoteInfo = FusionScout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0545631CB37AAD0057C013 /* FusionScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0545671CB37AAD0057C013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0545691CB37AAD0057C013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D05456A1CB37AAD0057C013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D0545701CB37AAD0057C013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D0545721CB37AAD0057C013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D0545751CB37AAD0057C013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D0545771CB37AAD0057C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D05457C1CB37AAD0057C013 /* FusionScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0545801CB37AAD0057C013 /* FusionScoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FusionScoutTests.m; sourceTree = "<group>"; };
+		4D0545821CB37AAD0057C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0545871CB37AAD0057C013 /* FusionScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionScoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D05458B1CB37AAD0057C013 /* FusionScoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FusionScoutUITests.m; sourceTree = "<group>"; };
+		4D05458D1CB37AAD0057C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3B926D1CC7079900F35C7C /* TeamRankingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamRankingsTableViewController.h; path = ViewControllers/TeamRankingsTableViewController.h; sourceTree = "<group>"; };
+		4D3B926E1CC7079900F35C7C /* TeamRankingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamRankingsTableViewController.m; path = ViewControllers/TeamRankingsTableViewController.m; sourceTree = "<group>"; };
+		4D49DFDF1CC6830C00AAD53B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FusionScout/Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		4D49DFE01CC6830C00AAD53B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = FusionScout/Frameworks/Parse.framework; sourceTree = "<group>"; };
+		4D49DFE31CC6833200AAD53B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4D49DFE51CC6833900AAD53B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4D49DFE71CC6833F00AAD53B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D49DFE91CC6834500AAD53B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D49DFEB1CC6834B00AAD53B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D49DFED1CC6835200AAD53B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4D49DFEF1CC6835C00AAD53B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4D49DFF11CC6836300AAD53B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4D49DFF31CC6836C00AAD53B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4D49DFF51CC6837400AAD53B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4D6177E51CC55DD400CCBAB7 /* fusion-logo-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fusion-logo-2-1.png"; path = "Images/fusion-logo-2-1.png"; sourceTree = "<group>"; };
+		4D6EFD961CC3F64500FA38B8 /* ScoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoutTableViewController.h; path = ViewControllers/ScoutTableViewController.h; sourceTree = "<group>"; };
+		4D6EFD971CC3F64500FA38B8 /* ScoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoutTableViewController.m; path = ViewControllers/ScoutTableViewController.m; sourceTree = "<group>"; };
+		4D6EFD991CC41C8B00FA38B8 /* MainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuTableViewController.h; path = ViewControllers/MainMenuTableViewController.h; sourceTree = "<group>"; };
+		4D6EFD9A1CC41C8B00FA38B8 /* MainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuTableViewController.m; path = ViewControllers/MainMenuTableViewController.m; sourceTree = "<group>"; };
+		4D7831931CC7ED1000AD195A /* TeamLookupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamLookupViewController.h; path = ViewControllers/TeamLookupViewController.h; sourceTree = "<group>"; };
+		4D7831941CC7ED1000AD195A /* TeamLookupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamLookupViewController.m; path = ViewControllers/TeamLookupViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0545601CB37AAD0057C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D49DFF61CC6837400AAD53B /* libsqlite3.tbd in Frameworks */,
+				4D49DFF41CC6836C00AAD53B /* libz.tbd in Frameworks */,
+				4D49DFF21CC6836300AAD53B /* SystemConfiguration.framework in Frameworks */,
+				4D49DFF01CC6835C00AAD53B /* StoreKit.framework in Frameworks */,
+				4D49DFEE1CC6835200AAD53B /* Security.framework in Frameworks */,
+				4D49DFEC1CC6834B00AAD53B /* QuartzCore.framework in Frameworks */,
+				4D49DFEA1CC6834500AAD53B /* CoreLocation.framework in Frameworks */,
+				4D49DFE81CC6833F00AAD53B /* CoreGraphics.framework in Frameworks */,
+				4D49DFE61CC6833900AAD53B /* CFNetwork.framework in Frameworks */,
+				4D49DFE41CC6833200AAD53B /* AudioToolbox.framework in Frameworks */,
+				4D49DFE21CC6830C00AAD53B /* Parse.framework in Frameworks */,
+				4D49DFE11CC6830C00AAD53B /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0545791CB37AAD0057C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0545841CB37AAD0057C013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D05455A1CB37AAC0057C013 = {
+			isa = PBXGroup;
+			children = (
+				4D0545651CB37AAD0057C013 /* FusionScout */,
+				4D05457F1CB37AAD0057C013 /* FusionScoutTests */,
+				4D05458A1CB37AAD0057C013 /* FusionScoutUITests */,
+				4D0545641CB37AAD0057C013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0545641CB37AAD0057C013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0545631CB37AAD0057C013 /* FusionScout.app */,
+				4D05457C1CB37AAD0057C013 /* FusionScoutTests.xctest */,
+				4D0545871CB37AAD0057C013 /* FusionScoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0545651CB37AAD0057C013 /* FusionScout */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFF81CC6839F00AAD53B /* ViewControllers */,
+				4D49DFF71CC6837B00AAD53B /* Frameworks */,
+				4D0545691CB37AAD0057C013 /* AppDelegate.h */,
+				4D05456A1CB37AAD0057C013 /* AppDelegate.m */,
+				4D05456F1CB37AAD0057C013 /* Main.storyboard */,
+				4D0545721CB37AAD0057C013 /* Assets.xcassets */,
+				4D0545741CB37AAD0057C013 /* LaunchScreen.storyboard */,
+				4D0545771CB37AAD0057C013 /* Info.plist */,
+				4D0545661CB37AAD0057C013 /* Supporting Files */,
+			);
+			path = FusionScout;
+			sourceTree = "<group>";
+		};
+		4D0545661CB37AAD0057C013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6177E51CC55DD400CCBAB7 /* fusion-logo-2-1.png */,
+				4D0545671CB37AAD0057C013 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D05457F1CB37AAD0057C013 /* FusionScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0545801CB37AAD0057C013 /* FusionScoutTests.m */,
+				4D0545821CB37AAD0057C013 /* Info.plist */,
+			);
+			path = FusionScoutTests;
+			sourceTree = "<group>";
+		};
+		4D05458A1CB37AAD0057C013 /* FusionScoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D05458B1CB37AAD0057C013 /* FusionScoutUITests.m */,
+				4D05458D1CB37AAD0057C013 /* Info.plist */,
+			);
+			path = FusionScoutUITests;
+			sourceTree = "<group>";
+		};
+		4D49DFF71CC6837B00AAD53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFF51CC6837400AAD53B /* libsqlite3.tbd */,
+				4D49DFF31CC6836C00AAD53B /* libz.tbd */,
+				4D49DFF11CC6836300AAD53B /* SystemConfiguration.framework */,
+				4D49DFEF1CC6835C00AAD53B /* StoreKit.framework */,
+				4D49DFED1CC6835200AAD53B /* Security.framework */,
+				4D49DFEB1CC6834B00AAD53B /* QuartzCore.framework */,
+				4D49DFE91CC6834500AAD53B /* CoreLocation.framework */,
+				4D49DFE71CC6833F00AAD53B /* CoreGraphics.framework */,
+				4D49DFE51CC6833900AAD53B /* CFNetwork.framework */,
+				4D49DFE31CC6833200AAD53B /* AudioToolbox.framework */,
+				4D49DFDF1CC6830C00AAD53B /* Bolts.framework */,
+				4D49DFE01CC6830C00AAD53B /* Parse.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D49DFF81CC6839F00AAD53B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D6EFD961CC3F64500FA38B8 /* ScoutTableViewController.h */,
+				4D6EFD971CC3F64500FA38B8 /* ScoutTableViewController.m */,
+				4D6EFD991CC41C8B00FA38B8 /* MainMenuTableViewController.h */,
+				4D6EFD9A1CC41C8B00FA38B8 /* MainMenuTableViewController.m */,
+				4D3B926D1CC7079900F35C7C /* TeamRankingsTableViewController.h */,
+				4D3B926E1CC7079900F35C7C /* TeamRankingsTableViewController.m */,
+				4D7831931CC7ED1000AD195A /* TeamLookupViewController.h */,
+				4D7831941CC7ED1000AD195A /* TeamLookupViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0545621CB37AAD0057C013 /* FusionScout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0545901CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScout" */;
+			buildPhases = (
+				4D05455F1CB37AAD0057C013 /* Sources */,
+				4D0545601CB37AAD0057C013 /* Frameworks */,
+				4D0545611CB37AAD0057C013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FusionScout;
+			productName = FusionScout;
+			productReference = 4D0545631CB37AAD0057C013 /* FusionScout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D05457B1CB37AAD0057C013 /* FusionScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0545931CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScoutTests" */;
+			buildPhases = (
+				4D0545781CB37AAD0057C013 /* Sources */,
+				4D0545791CB37AAD0057C013 /* Frameworks */,
+				4D05457A1CB37AAD0057C013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D05457E1CB37AAD0057C013 /* PBXTargetDependency */,
+			);
+			name = FusionScoutTests;
+			productName = FusionScoutTests;
+			productReference = 4D05457C1CB37AAD0057C013 /* FusionScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D0545861CB37AAD0057C013 /* FusionScoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0545961CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScoutUITests" */;
+			buildPhases = (
+				4D0545831CB37AAD0057C013 /* Sources */,
+				4D0545841CB37AAD0057C013 /* Frameworks */,
+				4D0545851CB37AAD0057C013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0545891CB37AAD0057C013 /* PBXTargetDependency */,
+			);
+			name = FusionScoutUITests;
+			productName = FusionScoutUITests;
+			productReference = 4D0545871CB37AAD0057C013 /* FusionScoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D05455B1CB37AAC0057C013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Landon Haugh";
+				TargetAttributes = {
+					4D0545621CB37AAD0057C013 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U4LMXXU5FQ;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					4D05457B1CB37AAD0057C013 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U4LMXXU5FQ;
+						TestTargetID = 4D0545621CB37AAD0057C013;
+					};
+					4D0545861CB37AAD0057C013 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U4LMXXU5FQ;
+						TestTargetID = 4D0545621CB37AAD0057C013;
+					};
+				};
+			};
+			buildConfigurationList = 4D05455E1CB37AAC0057C013 /* Build configuration list for PBXProject "FusionScout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D05455A1CB37AAC0057C013;
+			productRefGroup = 4D0545641CB37AAD0057C013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0545621CB37AAD0057C013 /* FusionScout */,
+				4D05457B1CB37AAD0057C013 /* FusionScoutTests */,
+				4D0545861CB37AAD0057C013 /* FusionScoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0545611CB37AAD0057C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0545761CB37AAD0057C013 /* LaunchScreen.storyboard in Resources */,
+				4D6177E61CC55DD400CCBAB7 /* fusion-logo-2-1.png in Resources */,
+				4D0545731CB37AAD0057C013 /* Assets.xcassets in Resources */,
+				4D0545711CB37AAD0057C013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D05457A1CB37AAD0057C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0545851CB37AAD0057C013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D05455F1CB37AAD0057C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3B926F1CC7079900F35C7C /* TeamRankingsTableViewController.m in Sources */,
+				4D6EFD981CC3F64500FA38B8 /* ScoutTableViewController.m in Sources */,
+				4D6EFD9B1CC41C8B00FA38B8 /* MainMenuTableViewController.m in Sources */,
+				4D05456B1CB37AAD0057C013 /* AppDelegate.m in Sources */,
+				4D7831951CC7ED1000AD195A /* TeamLookupViewController.m in Sources */,
+				4D0545681CB37AAD0057C013 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0545781CB37AAD0057C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0545811CB37AAD0057C013 /* FusionScoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0545831CB37AAD0057C013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D05458C1CB37AAD0057C013 /* FusionScoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D05457E1CB37AAD0057C013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0545621CB37AAD0057C013 /* FusionScout */;
+			targetProxy = 4D05457D1CB37AAD0057C013 /* PBXContainerItemProxy */;
+		};
+		4D0545891CB37AAD0057C013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0545621CB37AAD0057C013 /* FusionScout */;
+			targetProxy = 4D0545881CB37AAD0057C013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D05456F1CB37AAD0057C013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0545701CB37AAD0057C013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0545741CB37AAD0057C013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0545751CB37AAD0057C013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D05458E1CB37AAD0057C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D05458F1CB37AAD0057C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0545911CB37AAD0057C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FusionScout/Frameworks",
+				);
+				INFOPLIST_FILE = FusionScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haugh.FusionScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D0545921CB37AAD0057C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FusionScout/Frameworks",
+				);
+				INFOPLIST_FILE = FusionScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haugh.FusionScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D0545941CB37AAD0057C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FusionScoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haugh.FusionScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FusionScout.app/FusionScout";
+			};
+			name = Debug;
+		};
+		4D0545951CB37AAD0057C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FusionScoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haugh.FusionScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FusionScout.app/FusionScout";
+			};
+			name = Release;
+		};
+		4D0545971CB37AAD0057C013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FusionScoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haugh.FusionScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FusionScout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D0545981CB37AAD0057C013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FusionScoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haugh.FusionScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FusionScout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D05455E1CB37AAC0057C013 /* Build configuration list for PBXProject "FusionScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D05458E1CB37AAD0057C013 /* Debug */,
+				4D05458F1CB37AAD0057C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0545901CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0545911CB37AAD0057C013 /* Debug */,
+				4D0545921CB37AAD0057C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0545931CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0545941CB37AAD0057C013 /* Debug */,
+				4D0545951CB37AAD0057C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0545961CB37AAD0057C013 /* Build configuration list for PBXNativeTarget "FusionScoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0545971CB37AAD0057C013 /* Debug */,
+				4D0545981CB37AAD0057C013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D05455B1CB37AAC0057C013 /* Project object */;
+}
