@@ -63,7 +63,7 @@ NSInteger teleopPenaltiesVal;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 5;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -71,7 +71,6 @@ NSInteger teleopPenaltiesVal;
     if(section == 1) return 3;
     if(section == 2) return 7;
     if(section == 3) return 4;
-    if(section == 4) return 1;
     else return 0;
 }
 

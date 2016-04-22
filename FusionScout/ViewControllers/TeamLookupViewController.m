@@ -150,6 +150,7 @@ UIAlertView *dialog;
         _teleopLowGoalsMadeOutlet.text = [NSString stringWithFormat:@"%d", totalTeleopLowGoalsMade[teamNumber2]];
         _teleopEndGameOutlet.text = [NSString stringWithFormat:@"%d", totalTeleopEndGame[teamNumber2]];
         _totalScoreOutlet.text = [NSString stringWithFormat:@"%d", totalAutoGoal[teamNumber2] + totalAutoReachedOW[teamNumber2] + totalAutoCrossedDef[teamNumber2] + totalTeleopCrossedDef[teamNumber2] + totalTeleopHighGoalsMissed[teamNumber2] + totalTeleopHighGoalsMade[teamNumber2] + totalTeleopLowGoalsMissed[teamNumber2] + totalTeleopLowGoalsMade[teamNumber2] + totalTeleopEndGame[teamNumber2]];
+        
         totalAutoGoal[teamNumber2] = 0;
         totalAutoReachedOW[teamNumber2] = 0;
         totalAutoCrossedDef[teamNumber2] = 0;

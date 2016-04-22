@@ -14,6 +14,7 @@
 		4D0545761CB37AAD0057C013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0545741CB37AAD0057C013 /* LaunchScreen.storyboard */; };
 		4D0545811CB37AAD0057C013 /* FusionScoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0545801CB37AAD0057C013 /* FusionScoutTests.m */; };
 		4D05458C1CB37AAD0057C013 /* FusionScoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05458B1CB37AAD0057C013 /* FusionScoutUITests.m */; };
+		4D203B831CC99D2700588F3B /* DefenseLookupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D203B821CC99D2700588F3B /* DefenseLookupViewController.m */; };
 		4D361F3A1CC8792100A9F544 /* fusion_logo 21-39-54-063 copy-2 in Resources */ = {isa = PBXBuildFile; fileRef = 4D361F381CC8792100A9F544 /* fusion_logo 21-39-54-063 copy-2 */; };
 		4D361F3B1CC8792100A9F544 /* fusion-logo-2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D361F391CC8792100A9F544 /* fusion-logo-2-1.png */; };
 		4D3B926F1CC7079900F35C7C /* TeamRankingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B926E1CC7079900F35C7C /* TeamRankingsTableViewController.m */; };
@@ -66,6 +67,8 @@
 		4D0545871CB37AAD0057C013 /* FusionScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionScoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D05458B1CB37AAD0057C013 /* FusionScoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FusionScoutUITests.m; sourceTree = "<group>"; };
 		4D05458D1CB37AAD0057C013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D203B811CC99D2700588F3B /* DefenseLookupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefenseLookupViewController.h; path = ViewControllers/DefenseLookupViewController.h; sourceTree = "<group>"; };
+		4D203B821CC99D2700588F3B /* DefenseLookupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefenseLookupViewController.m; path = ViewControllers/DefenseLookupViewController.m; sourceTree = "<group>"; };
 		4D361F381CC8792100A9F544 /* fusion_logo 21-39-54-063 copy-2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fusion_logo 21-39-54-063 copy-2"; path = "Images/fusion_logo 21-39-54-063 copy-2"; sourceTree = "<group>"; };
 		4D361F391CC8792100A9F544 /* fusion-logo-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fusion-logo-2-1.png"; path = "Images/fusion-logo-2-1.png"; sourceTree = "<group>"; };
 		4D3B926D1CC7079900F35C7C /* TeamRankingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamRankingsTableViewController.h; path = ViewControllers/TeamRankingsTableViewController.h; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				4D3B926E1CC7079900F35C7C /* TeamRankingsTableViewController.m */,
 				4D7831931CC7ED1000AD195A /* TeamLookupViewController.h */,
 				4D7831941CC7ED1000AD195A /* TeamLookupViewController.m */,
+				4D203B811CC99D2700588F3B /* DefenseLookupViewController.h */,
+				4D203B821CC99D2700588F3B /* DefenseLookupViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				4D3B926F1CC7079900F35C7C /* TeamRankingsTableViewController.m in Sources */,
 				4D6EFD981CC3F64500FA38B8 /* ScoutTableViewController.m in Sources */,
 				4D6EFD9B1CC41C8B00FA38B8 /* MainMenuTableViewController.m in Sources */,
+				4D203B831CC99D2700588F3B /* DefenseLookupViewController.m in Sources */,
 				4D05456B1CB37AAD0057C013 /* AppDelegate.m in Sources */,
 				4D7831951CC7ED1000AD195A /* TeamLookupViewController.m in Sources */,
 				4D0545681CB37AAD0057C013 /* main.m in Sources */,
